@@ -1,0 +1,6 @@
+StoreServlet getServletContext().setAttribute("storeList", list);
+GroupsServlet getServletContext().setAttribute("groupsList", list);
+GroupsServlet getServletContext().setAttribute("effectGroupsList", effectList);
+getServletContext().setAttribute("memberList", list);
+getServletContext().setAttribute("memberAccountList", accountList);
+getServletContext().setAttribute("memberNameList", nameList);
